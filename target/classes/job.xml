@@ -1,0 +1,9 @@
+<job id="myJob" xmlns="http://batch.jsr352/jsl">
+	<step id="myStep">
+		<chunk buffer-size="2" checkpoint-policy="item" commit-interval="2"> 
+			<reader ref="myReader"/> 
+			<writer ref="myWriter"/> 
+			<processor ref="myProcessor"/>
+		</chunk>
+	</step>
+</job>

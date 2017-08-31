@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<batch-artifacts xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+    <ref id="myReader" class="com.usaa.batchstuff.MyReader" />
+    <ref id="myWriter" class="com.usaa.batchstuff.MyWriter" />
+    <ref id="myProcessor" class="com.usaa.batchstuff.MyProcessor" />
+</batch-artifacts>
